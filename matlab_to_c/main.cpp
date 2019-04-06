@@ -23,9 +23,10 @@ static vector<string> filelist_generator(string Prefix, string suffix ,int img_n
 	for (int i = 0; i < img_num; i++)
 	{
 		if (i < 10)
-			filenamelist[i] = Prefix + "0" + to_string(i) + suffix;
+			filenamelist[i] = "image/" + Prefix + "0" + to_string(i) + suffix;
 		else if (i >= 10 && i < 100)
-			filenamelist[i] = Prefix + to_string(i) + suffix;
+			filenamelist[i] = "image/" + Prefix + to_string(i) + suffix;
+
 	}
 	return filenamelist;
 }
@@ -213,9 +214,9 @@ int main()
 
 	/*********************************************************************************************/
 
-	//grid_generator("ctest000.tif",7,7);
+	grid_generator("image/ctest000.tif",7,7);
 
-	//automate_image();
+	automate_image();
 
 	fitLine();
 
