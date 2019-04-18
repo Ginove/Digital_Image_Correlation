@@ -1,6 +1,6 @@
 # Digital_Image_Correlation
 
-** 声明：本程序是将 [Matlab数字图像相关程序](https://ww2.mathworks.cn/matlabcentral/fileexchange/12413-digital-image-correlation-and-tracking) 翻译成Opencv下C++程序。 **
+**声明：本程序是将 [Matlab数字图像相关程序](https://ww2.mathworks.cn/matlabcentral/fileexchange/12413-digital-image-correlation-and-tracking) 翻译成Opencv下C++程序。**
 
 ## 环境：
   Win10 x64 、Opencv3.4.5 64位、Visual Studio 2017
